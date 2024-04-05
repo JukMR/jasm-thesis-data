@@ -1,0 +1,2 @@
+Average: 32.518233 seconds
+Standard Deviation: 1.694140 seconds
