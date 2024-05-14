@@ -1,0 +1,306 @@
+{
+    "acoplamiento_eferente": {
+        "regex": [
+            "abc.ABC",
+            "abc.abstractmethod",
+            "jasm.global_definitions.DisassStyle",
+            "jasm.global_definitions.ValidAddrRange",
+            "jasm.logging_config.logger",
+            "jasm.regex.file2regex.File2Regex",
+            "jasm.regex.macro_expander.macro_expander.MacroExpander",
+            "jasm.regex.macro_expander.macro_expander.PatternTree",
+            "jasm.regex.tree_generators.capture_manager.CapturesManager",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode",
+            "jasm.regex.tree_generators.pattern_node_builder.PatternNodeBuilderNoParents",
+            "jasm.regex.tree_generators.pattern_node_type_builder.pattern_node_type_builder.PatternNodeTypeBuilder",
+            "jasm.regex.tree_generators.shared_context.SharedContext",
+            "typing.Any",
+            "typing.Dict",
+            "typing.List",
+            "typing.Optional",
+            "yaml"
+        ],
+        "regex/tree_generators": [
+            "abc.ABC",
+            "abc.abstractmethod",
+            "dataclasses.dataclass",
+            "enum.Enum",
+            "jasm.global_definitions.DictNode",
+            "jasm.global_definitions.IGNORE_INST_ADDR",
+            "jasm.global_definitions.OPTIONAL_PERCENTAGE_CHAR",
+            "jasm.global_definitions.TimesType",
+            "jasm.global_definitions.remove_access_suffix",
+            "jasm.regex.tree_generators.capture_manager.CapturesManager",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNodeData",
+            "jasm.regex.tree_generators.pattern_node_tmp_untyped.PatternNodeTmpUntyped",
+            "jasm.regex.tree_generators.shared_context.SharedContext",
+            "typing.Any",
+            "typing.Dict",
+            "typing.Final",
+            "typing.List",
+            "typing.Optional",
+            "typing.TypeAlias"
+        ],
+        "regex/tree_generators/pattern_node_type_builder": [
+            "jasm.global_definitions.PatternNodeName",
+            "jasm.global_definitions.remove_access_suffix",
+            "jasm.regex.tree_generators.capture_manager.CapturesManager",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_instruction.PatternNodeCaptureGroupInstructionCall",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_instruction.PatternNodeCaptureGroupInstructionReference",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_operand.PatternNodeCaptureGroupOperandCall",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_operand.PatternNodeCaptureGroupOperandReference",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_register.PatternNodeCaptureGroupRegisterCall",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_register.PatternNodeCaptureGroupRegisterReferenceBasereg",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_register.PatternNodeCaptureGroupRegisterReferenceGenreg",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_register.PatternNodeCaptureGroupRegisterReferenceIndreg",
+            "jasm.regex.tree_generators.pattern_node_implementations.capture_group.capture_group_register.PatternNodeCaptureGroupRegisterReferenceStackreg",
+            "jasm.regex.tree_generators.pattern_node_implementations.deref.PatternNodeDeref",
+            "jasm.regex.tree_generators.pattern_node_implementations.deref.PatternNodeDerefProperty",
+            "jasm.regex.tree_generators.pattern_node_implementations.deref.PatternNodeDerefPropertyCaptureGroupCall",
+            "jasm.regex.tree_generators.pattern_node_implementations.deref.PatternNodeDerefPropertyCaptureGroupReference",
+            "jasm.regex.tree_generators.pattern_node_implementations.mnemonic_and_operand.mnemonic_and_operand.PatternNodeMnemonic",
+            "jasm.regex.tree_generators.pattern_node_implementations.mnemonic_and_operand.mnemonic_and_operand.PatternNodeOperand",
+            "jasm.regex.tree_generators.pattern_node_implementations.node_branch_root.PatternNodeNode",
+            "jasm.regex.tree_generators.pattern_node_implementations.node_branch_root.PatternNodeRoot",
+            "jasm.regex.tree_generators.pattern_node_implementations.node_branch_root.PatternNodeTimes",
+            "jasm.regex.tree_generators.pattern_node_tmp_untyped.PatternNodeTmpUntyped",
+            "jasm.regex.tree_generators.pattern_node_type_builder.capture_group_interface.CaptureGroupHelper",
+            "jasm.regex.tree_generators.pattern_node_type_builder.operand_capture_group_builder.OperandCaptureGroupBuilder",
+            "jasm.regex.tree_generators.pattern_node_type_builder.register_capture_group_builder.RegisterCaptureGroupBuilder",
+            "jasm.regex.tree_generators.pattern_node_type_builder.special_register_capture_group_type_builder.SpecialRegisterCaptureGroupTypeBuilder",
+            "typing.Optional"
+        ],
+        "regex/tree_generators/pattern_node_implementations": [
+            "itertools.permutations",
+            "jasm.global_definitions.SKIP_TO_END_OF_PATTERN_NODE",
+            "jasm.global_definitions.TimesType",
+            "jasm.regex.tree_generators.capture_group_index.CaptureGroupIndexOperandCall",
+            "jasm.regex.tree_generators.deref_classes.DerefObject",
+            "jasm.regex.tree_generators.deref_classes.DerefObjectBuilder",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode",
+            "jasm.regex.tree_generators.pattern_node_implementations.time_type_builder.TimesTypeBuilder",
+            "typing.List",
+            "typing.Optional"
+        ],
+        "regex/tree_generators/pattern_node_implementations/mnemonic_and_operand": [
+            "jasm.global_definitions.ALLOW_MATCHING_SUBSTRINGS_IN_NAMES_AND_OPERANDS",
+            "jasm.global_definitions.ASTERISK_WITH_LIMIT",
+            "jasm.global_definitions.IGNORE_INST_ADDR",
+            "jasm.global_definitions.IGNORE_NAME_PREFIX",
+            "jasm.global_definitions.IGNORE_NAME_SUFFIX",
+            "jasm.global_definitions.PatternNodeName",
+            "jasm.global_definitions.SKIP_TO_END_OF_PATTERN_NODE",
+            "jasm.global_definitions.TimesType",
+            "jasm.logging_config.logger",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode",
+            "jasm.regex.tree_generators.pattern_node_implementations.time_type_builder.TimesTypeBuilder",
+            "typing.List",
+            "typing.Optional"
+        ],
+        "regex/tree_generators/pattern_node_implementations/capture_group": [
+            "jasm.global_definitions.IGNORE_INST_ADDR",
+            "jasm.global_definitions.OPTIONAL_COMMA",
+            "jasm.global_definitions.OPTIONAL_PERCENTAGE_CHAR",
+            "jasm.global_definitions.RegisterCaptureSuffixs",
+            "jasm.regex.tree_generators.capture_group_index.CaptureGroupIndexInstructionCall",
+            "jasm.regex.tree_generators.capture_group_index.CaptureGroupIndexOperandCall",
+            "jasm.regex.tree_generators.capture_group_index.CaptureGroupIndexRegisterCall",
+            "jasm.regex.tree_generators.pattern_node_abstract.PatternNode"
+        ],
+        "regex/macro_expander": [
+            "copy",
+            "jasm.regex.macro_expander.args_mapping_generator.ArgsMappingGenerator",
+            "jasm.regex.macro_expander.macro_args_resolver.MacroArgsResolver",
+            "typing.Any",
+            "typing.Dict",
+            "typing.Generator",
+            "typing.List",
+            "typing.Tuple",
+            "typing.TypeAlias",
+            "typing.Union"
+        ],
+        "match": [
+            "jasm.global_definitions.ConsumerType",
+            "jasm.global_definitions.DisassStyle",
+            "jasm.global_definitions.Instruction",
+            "jasm.global_definitions.MatchConfig",
+            "jasm.global_definitions.MatchingReturnMode",
+            "jasm.global_definitions.ValidAddrRange",
+            "jasm.match.implementations.consumer_builder.ConsumerBuilder",
+            "jasm.match.implementations.matched_observers.MatchedObserver",
+            "jasm.regex.yaml2regex.Yaml2Regex",
+            "jasm.stringify_asm.abstracts.i_instruction_observer.IInstructionObserver",
+            "jasm.stringify_asm.implementations.observers.RemoveEmptyInstructions",
+            "jasm.stringify_asm.implementations.producer_builder.ProducerBuilder",
+            "typing.List",
+            "typing.Optional"
+        ],
+        "match/implementations": [
+            "jasm.global_definitions.ConsumerType",
+            "jasm.global_definitions.Instruction",
+            "jasm.global_definitions.MatchingSearchMode",
+            "jasm.logging_config.logger",
+            "jasm.match.abstracts.i_matched_observer.IMatchedObserver",
+            "jasm.match.implementations.complete_consumer.CompleteConsumer",
+            "jasm.match.implementations.instruction_observer_consumer.InstructionObserverConsumer",
+            "regex",
+            "src.jasm.match.abstracts.i_consumer.IConsumer",
+            "src.jasm.match.abstracts.i_matched_observer.IMatchedObserver",
+            "src.jasm.match.implementations.instruction_observer_consumer.InstructionObserverConsumer",
+            "src.jasm.stringify_asm.abstracts.i_instruction_observer.IInstructionObserver",
+            "typing.Final",
+            "typing.List",
+            "typing.Optional"
+        ],
+        "match/abstracts": [
+            "abc.ABC",
+            "abc.abstractmethod",
+            "jasm.global_definitions.Instruction",
+            "src.jasm.match.abstracts.i_matched_observer.IMatchedObserver",
+            "typing.Final"
+        ],
+        "stringify_asm": [],
+        "stringify_asm/implementations": [
+            "abc.ABC",
+            "abc.abstractmethod",
+            "jasm.global_definitions.BinaryFileFormatNotSupported",
+            "jasm.global_definitions.DisassStyle",
+            "jasm.global_definitions.InputFileType",
+            "jasm.global_definitions.Instruction",
+            "jasm.logging_config.logger",
+            "jasm.stringify_asm.abstracts.asm_parser.AsmParser",
+            "jasm.stringify_asm.abstracts.disassembler.Disassembler",
+            "jasm.stringify_asm.implementations.composable_producer.ComposableProducer",
+            "jasm.stringify_asm.implementations.composable_producer.IInstructionProducer",
+            "jasm.stringify_asm.implementations.gnu_objdump.gnu_objdump_disassembler.GNUObjdumpDisassembler",
+            "jasm.stringify_asm.implementations.gnu_objdump.gnu_objdump_parser_manual.ObjdumpParserManual",
+            "jasm.stringify_asm.implementations.null_disassembler.NullDisassembler",
+            "pathlib.Path",
+            "src.jasm.match.abstracts.i_consumer.IConsumer",
+            "src.jasm.stringify_asm.abstracts.i_instruction_observer.IInstructionObserver",
+            "subprocess",
+            "subprocess.CalledProcessError",
+            "typing.Optional"
+        ],
+        "stringify_asm/implementations/gnu_objdump": [
+            "dataclasses.dataclass",
+            "jasm.global_definitions.DisassStyle",
+            "jasm.global_definitions.Instruction",
+            "jasm.logging_config.logger",
+            "jasm.stringify_asm.abstracts.asm_parser.AsmParser",
+            "jasm.stringify_asm.implementations.gnu_objdump.asm_manual_parser_w_regex.parse_file_lines",
+            "jasm.stringify_asm.implementations.shell_disassembler.ShellDisassembler",
+            "re",
+            "src.jasm.match.abstracts.i_consumer.IConsumer",
+            "typing.List",
+            "typing.Optional",
+            "typing.TypeAlias"
+        ],
+        "stringify_asm/implementations/llvm_objdump": [
+            "jasm.stringify_asm.abstracts.asm_parser.AsmParser",
+            "jasm.stringify_asm.implementations.shell_disassembler.ShellDisassembler",
+            "src.jasm.match.abstracts.i_consumer.IConsumer"
+        ],
+        "stringify_asm/abstracts": [
+            "abc.ABC",
+            "abc.abstractmethod",
+            "jasm.global_definitions.Instruction",
+            "src.jasm.match.abstracts.i_consumer.IConsumer",
+            "typing.Optional"
+        ]
+    },
+    "acoplamiento_aferente": {
+        "regex": [
+            "jasm.match",
+            "match/implementations"
+        ],
+        "typing": [
+            "match",
+            "match/abstracts",
+            "match/implementations",
+            "regex",
+            "regex/macro_expander",
+            "regex/tree_generators",
+            "regex/tree_generators/pattern_node_implementations",
+            "regex/tree_generators/pattern_node_implementations/mnemonic_and_operand",
+            "regex/tree_generators/pattern_node_type_builder",
+            "stringify_asm/abstracts",
+            "stringify_asm/implementations",
+            "stringify_asm/implementations/gnu_objdump"
+        ],
+        "yaml": [
+            "regex"
+        ],
+        "jasm": [
+            "match",
+            "match/abstracts",
+            "match/implementations",
+            "regex",
+            "regex/macro_expander",
+            "regex/tree_generators",
+            "regex/tree_generators/pattern_node_implementations",
+            "regex/tree_generators/pattern_node_implementations/capture_group",
+            "regex/tree_generators/pattern_node_implementations/mnemonic_and_operand",
+            "regex/tree_generators/pattern_node_type_builder",
+            "stringify_asm/abstracts",
+            "stringify_asm/implementations",
+            "stringify_asm/implementations/gnu_objdump",
+            "stringify_asm/implementations/llvm_objdump"
+        ],
+        "abc": [
+            "match/abstracts",
+            "regex",
+            "regex/tree_generators",
+            "stringify_asm/abstracts",
+            "stringify_asm/implementations"
+        ],
+        "regex/tree_generators": [],
+        "enum": [
+            "regex/tree_generators"
+        ],
+        "dataclasses": [
+            "regex/tree_generators",
+            "stringify_asm/implementations/gnu_objdump"
+        ],
+        "regex/tree_generators/pattern_node_type_builder": [],
+        "regex/tree_generators/pattern_node_implementations": [],
+        "itertools": [
+            "regex/tree_generators/pattern_node_implementations"
+        ],
+        "regex/tree_generators/pattern_node_implementations/mnemonic_and_operand": [],
+        "regex/tree_generators/pattern_node_implementations/capture_group": [],
+        "regex/macro_expander": [],
+        "copy": [
+            "regex/macro_expander"
+        ],
+        "match": [],
+        "match/implementations": [],
+        "src": [
+            "match/abstracts",
+            "match/implementations",
+            "stringify_asm/abstracts",
+            "stringify_asm/implementations",
+            "stringify_asm/implementations/gnu_objdump",
+            "stringify_asm/implementations/llvm_objdump"
+        ],
+        "match/abstracts": [],
+        "stringify_asm": [
+            "jasm.match"
+        ],
+        "stringify_asm/implementations": [],
+        "subprocess": [
+            "stringify_asm/implementations"
+        ],
+        "pathlib": [
+            "stringify_asm/implementations"
+        ],
+        "stringify_asm/implementations/gnu_objdump": [],
+        "re": [
+            "stringify_asm/implementations/gnu_objdump"
+        ],
+        "stringify_asm/implementations/llvm_objdump": [],
+        "stringify_asm/abstracts": []
+    }
+}

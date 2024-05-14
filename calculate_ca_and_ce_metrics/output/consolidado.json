@@ -1,0 +1,36 @@
+{
+    "ce_consolidado": {
+        "match": 12,
+        "regex": 16,
+        "stringify_asm": 12
+    },
+    "ca_consolidado": {
+        "abc": 5,
+        "copy": 1,
+        "dataclasses": 2,
+        "enum": 1,
+        "itertools": 1,
+        "jasm": 14,
+        "match": 0,
+        "match/abstracts": 0,
+        "match/implementations": 0,
+        "pathlib": 1,
+        "re": 1,
+        "regex": 2,
+        "regex/macro_expander": 0,
+        "regex/tree_generators": 0,
+        "regex/tree_generators/pattern_node_implementations": 0,
+        "regex/tree_generators/pattern_node_implementations/capture_group": 0,
+        "regex/tree_generators/pattern_node_implementations/mnemonic_and_operand": 0,
+        "regex/tree_generators/pattern_node_type_builder": 0,
+        "src": 6,
+        "stringify_asm": 1,
+        "stringify_asm/abstracts": 0,
+        "stringify_asm/implementations": 0,
+        "stringify_asm/implementations/gnu_objdump": 0,
+        "stringify_asm/implementations/llvm_objdump": 0,
+        "subprocess": 1,
+        "typing": 12,
+        "yaml": 1
+    }
+}
